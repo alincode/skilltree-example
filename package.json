@@ -1,0 +1,20 @@
+{
+  "name": "skilltree-example",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "budo example.js:dist/bundle.js --dir ./src --live --open"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "faker": "^4.1.0",
+    "nanohtml": "^1.5.0",
+    "skilltree.js": "^0.6.1"
+  },
+  "devDependencies": {
+    "budo": "^11.6.1"
+  }
+}
